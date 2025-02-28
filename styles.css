@@ -144,3 +144,18 @@ footer {
     border: 4px solid #f1b8b3; /* Borde suave y pastel */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilo para la sección de idiomas */
+#languages {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#languages h2 {
+    color: #d0847a; /* Color cálido para el título */
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
