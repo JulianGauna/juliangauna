@@ -9,29 +9,29 @@
 </head>
 <body>
     <header>
-        <h1>Julian</h1>
-        <p>Frontend Developer in Training</p>
+        <h1 data-translate="header-title">Julian</h1>
+        <p data-translate="header-subtitle">Frontend Developer in Training</p>
     </header>
     
     <section id="about">
-        <h2>About Me</h2>
+        <h2 data-translate="about-title">About Me</h2>
         <div class="about-container">
             <img src="pfp.png" alt="Benjamin's Photo" class="about-photo">
-            <p>Hi, my name is Benjamin, I am 15 years old and I am from Argentina. I am learning frontend development and improving my skills every day.</p>
+            <p data-translate="about-text">Hi, my name is Benjamin, I am 15 years old and I am from Argentina. I am learning frontend development and improving my skills every day.</p>
         </div>
     </section>
 
     <section id="languages">
-        <h2>Languages</h2>
+        <h2 data-translate="languages-title">Languages</h2>
         <div class="skills-container">
-            <span>Spanish</span>
-            <span>English</span>
-            <span>Japanese</span>
+            <span data-language="es" class="language-selector">Spanish</span>
+            <span data-language="en" class="language-selector">English</span>
+            <span data-language="ja" class="language-selector">Japanese</span>
         </div>
     </section>
     
     <section id="skills">
-        <h2>Technical Skills</h2>
+        <h2 data-translate="skills-title">Technical Skills</h2>
         <div class="skills-container">
             <span><img src="https://cdn-icons-png.flaticon.com/256/5968/5968381.png" alt="TypeScript" class="logo"> TypeScript</span>
             <span><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="React" class="logo"> React</span>
@@ -43,7 +43,7 @@
     </section>
     
     <section id="design">
-        <h2>Design & UX/UI</h2>
+        <h2 data-translate="design-title">Design & UX/UI</h2>
         <div class="skills-container">
             <span>UX (User Experience)</span>
             <span>UI (User Interface)</span>
@@ -53,20 +53,22 @@
     </section>
     
     <section id="comments">
-        <h2>Leave a Comment</h2>
+        <h2 data-translate="comments-title">Leave a Comment</h2>
         <form action="https://formspree.io/f/mnnjepjw" method="POST">
-            <label for="name">Name:</label>
+            <label for="name" data-translate="name-label">Name:</label>
             <input type="text" id="name" name="name" required>
             
-            <label for="comment">Comment:</label>
+            <label for="comment" data-translate="comment-label">Comment:</label>
             <textarea id="comment" name="comment" required></textarea>
             
-            <button type="submit">Submit</button>
+            <button type="submit" data-translate="submit-button">Submit</button>
         </form>
     </section>
 
     <footer>
         <p>© 2025 Julian - All Rights Reserved</p>
     </footer>
+
+    <script src="languages.js"></script>
 </body>
 </html>
