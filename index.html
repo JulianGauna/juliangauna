@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julian's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
     <header>
@@ -23,7 +22,6 @@
 
     <section id="languages">
         <h2 data-translate="languages-title">Languages</h2>
-        <h3>(Click to change)</h3>
         <div class="skills-container">
             <span data-language="es" class="language-selector">Spanish</span>
             <span data-language="en" class="language-selector">English</span>
@@ -32,7 +30,7 @@
     </section>
     
     <section id="skills">
-        <h2 data-translate="skills-title">Technical Skills</h2>
+        <h2>Technical Skills</h2>
         <div class="skills-container">
             <div class="skill" data-skill="TypeScript" data-level="50%">
                 <img src="https://cdn-icons-png.flaticon.com/256/5968/5968381.png" alt="TypeScript" class="logo"> TypeScript
@@ -78,34 +76,71 @@
             </div>
         </div>
     </section>
-    
+
     <section id="design">
         <h2 data-translate="design-title">Design & UX/UI</h2>
         <div class="skills-container">
-            <span>UX (User Experience)</span>
-            <span>UI (User Interface)</span>
-            <span>Accessibility</span>
-            <span>Responsive Web Design</span>
+            <span class="design-item">UX (User Experience)</span>
+            <span class="design-item">UI (User Interface)</span>
+            <span class="design-item">Accessibility</span>
+            <span class="design-item">Responsive Web Design</span>
         </div>
     </section>
     
-    <section id="comments">
-        <h2 data-translate="comments-title">Leave a Comment</h2>
-        <form action="https://formspree.io/f/mnnjepjw" method="POST">
-            <label for="name" data-translate="name-label">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="comment" data-translate="comment-label">Comment:</label>
-            <textarea id="comment" name="comment" required></textarea>
-            
-            <button type="submit" data-translate="submit-button">Submit</button>
-        </form>
+    <!-- Sección de FAQ -->
+    <section id="faq">
+        <h2 data-translate="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>What is your experience level?</h3>
+                <p>I am constantly learning and growing, currently at an intermediate level, working on various personal and freelance projects.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What languages and frameworks do you use?</h3>
+                <p>I primarily work with JavaScript, React, HTML, CSS, and Git for version control. I am also learning TypeScript.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you offer freelance work?</h3>
+                <p>Yes! Feel free to contact me via email or Discord for freelance opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <div class="testimonials-section">
+    <div class="testimonial">
+        <p>"Trabajo excepcional, siempre entrega a tiempo y superando expectativas."</p>
+        <footer class="testimonial-footer">- Cliente</footer>
+    </div>
+    <div class="testimonial">
+        <p>"Gran profesionalismo y siempre dispuesto a escuchar nuestras necesidades."</p>
+        <footer class="testimonial-footer">- Cliente</footer>
+    </div>
+    <div class="testimonial">
+        <p>"El mejor en su área. Recomiendo su trabajo sin reservas."</p>
+        <footer class="testimonial-footer">- Cliente</footer>
+    </div>
+    <div class="testimonial">
+        <p>"Increíble atención y siempre entregando trabajo de calidad, ¡sin duda volveremos a trabajar con él!"</p>
+        <footer class="testimonial-footer">- Empresa</footer>
+    </div>
+    </div>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to work with me, feel free to reach out!</p>
+        <div class="contact-container">
+            <a href="mailto:julianbenjamingauna@gmail.com">Email</a>
+            <a href="https://x.com/JulianWebDesign" target="_blank">Twitter (X)</a>
+            <a href="https://discordapp.com/users/julian_webdev" target="_blank">Discord</a>
+        </div>
     </section>
 
     <footer>
         <p>© 2025 Julian - All Rights Reserved</p>
     </footer>
 
-    <script src="languages.js"></script>
+    <script src="languages.js"></script> <!-- Optional for adding translation functionality -->
 </body>
 </html>
