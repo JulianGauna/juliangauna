@@ -71,6 +71,63 @@ footer {
     border-top: 2px solid #f1b8b3;
 }
 
+/* Estilo para la sección de comentarios */
+#comments {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#comments h2 {
+    color: #d0847a; /* Color cálido para el título */
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+
+#comments form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#comments label {
+    font-weight: 600;
+    color: #4a4a4a;
+    font-size: 16px;
+    text-align: left;
+}
+
+#comments input, #comments textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #f1b8b3;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#comments input:focus, #comments textarea:focus {
+    border-color: #d0847a; /* Color de enfoque cálido */
+}
+
+#comments button {
+    padding: 14px;
+    background-color: #d0847a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#comments button:hover {
+    background-color: #f1b8b3; /* Un tono más suave al pasar el mouse */
+}
+
+/* Estilo para la foto de perfil */
 .about-container {
     display: flex;
     align-items: center;
