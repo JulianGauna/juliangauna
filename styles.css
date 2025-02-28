@@ -466,3 +466,19 @@ footer {
     font-size: 16px;
     color: #4a4a4a;
 }
+
+.gmail {
+    background-color: gray;
+}
+
+.twitter {
+    background-color: #4c4a8a;
+}
+
+.discord {
+    background-color: #4c4a8a;
+}
+
+.gmail {
+    background-color: rgb(6, 186, 0);
+}
