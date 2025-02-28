@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julian's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
     <header>
@@ -42,6 +43,20 @@
         </div>
     </section>
     
+    <!-- Comentarios -->
+    <section id="comments">
+        <h2>Leave a Comment</h2>
+        <form action="https://formspree.io/f/yourFormID" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
     <footer>
         <p>© 2025 Julian - All Rights Reserved</p>
     </footer>
