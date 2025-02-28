@@ -25,7 +25,7 @@ section {
     padding: 20px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-weight: 600;
     color: #d0847a; /* Un color cálido pastel */
     font-family: 'Dancing Script', cursive; /* Fuente más fluida y elegante */
