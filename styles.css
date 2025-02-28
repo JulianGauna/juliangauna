@@ -445,3 +445,24 @@ footer {
 .back-to-top:hover {
     background-color: #f1b8b3;
 }
+
+/* Sección de Precios */
+#pricing {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-out;
+}
+
+#pricing h2 {
+    color: #d0847a;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+
+#pricing p {
+    font-size: 16px;
+    color: #4a4a4a;
+}
