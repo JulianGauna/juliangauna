@@ -39,7 +39,8 @@ h1, h2, h3 {
     margin-top: 25px;
 }
 
-.skills-container span {
+.skills-container .skill {
+    position: relative;
     background-color: #fff;
     color: #4a4a4a;
     padding: 12px 20px;
@@ -50,17 +51,53 @@ h1, h2, h3 {
     border: 2px solid #f1b8b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
-.skills-container span:hover {
+.skills-container .skill:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
+.skills-container .logo {
     width: 28px;
     height: 28px;
     margin-right: 8px;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.skill:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Barra de progreso */
+.progress-bar {
+    height: 5px;
+    background-color: #d0847a;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.skill-level {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 footer {
