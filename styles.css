@@ -482,3 +482,29 @@ footer {
 .whatsapp {
     background-color: rgb(6, 186, 0);
 }
+
+/* Sección Mis Trabajos */
+#my-works .work-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#my-works .work-container .work-image {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la relación de aspecto */
+    object-fit: cover; /* Hace que la imagen se recorte y ajuste dentro del div */
+}
+
+#my-works .work-container .work-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #d0847a;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#my-works .work-container .work-link:hover {
+    color: #f1b8b3;
+}
