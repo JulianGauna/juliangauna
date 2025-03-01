@@ -494,6 +494,7 @@ footer {
     width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
     height: auto; /* Mantiene la relación de aspecto */
     object-fit: cover; /* Hace que la imagen se recorte y ajuste dentro del div */
+    border-radius: 25px;
 }
 
 #my-works .work-container .work-link {
